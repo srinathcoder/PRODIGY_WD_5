@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple Weather Application</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <div class="container">
+
+        <div class="header">
+            <h1>Weather Application</h1>
+        </div>
+
+        <div class="search-box">
+            <input type="text" placeholder="Enter your location" class="input-box">
+            <button id="searchBtn">Search</button>
+        </div>
+
+        <div class="location-not-found">
+            <h2>Location Not Available</h2>
+        </div>
+
+        <div class="weather-body">
+            <div class="weather-details">
+                <div class="temperature">
+                    <p class="temperature-value">0 <sup>°C</sup></p>
+                    <p class="description">Light Rain</p>
+                </div>
+
+                <div class="wind">
+                    <p class="text">
+                        <span id="wind-speed">12 Km/H</span><br>
+                        Wind Speed
+                    </p>
+                </div>
+
+                <div class="humidity">
+                    <p class="text">
+                        <span id="humidity">45%</span><br>
+                        Humidity
+                    </p>
+                </div>
+            </div>
+        </div>
+
+        
+    </div>
+
+    <script src="weatherjavascript.js"></script>
+</body>
+
+</html>
